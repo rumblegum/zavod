@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()  # Читаем файл .env, если он есть
 
 # Токен бота
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7735698208:AAHC7w-UJ69p45Jx7OnzS2yG7HgyFTGV9ls")
 
 # ID пользователя, который будет иметь права "суперадмина" по умолчанию.
 # Например, чтобы не плодить "ручные" SQL-запросы, можно задать себя как "первого администратора".
